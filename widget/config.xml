@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="A6155937255385" version="0.0.1">
+  	<name>微观剧场</name>
+	<description>
+		微观剧场
+	</description>
+	<author email="sleep@kaituocn.com" href="https://www.kaituocn.com/">
+		凯拓软件
+	</author>
+	<content src="./index.html" />
+	<preference name="appBackground" value="#fff"/>
+	<preference name="windowBackground" value="#fff"/>
+	<preference name="frameBackgroundColor" value="#fff"/>
+	<preference name="autoLaunch" value="true"/>
+	<preference name="autoUpdate" value="true"/>
+	<preference name="smartUpdate" value="true"/>
+	<preference name="debug" value="false"/>
+	<preference name="statusBarAppearance" value="true"/>
+	<preference name="pageBounce" value="false"/>
+	<permission name="location"/>
+	<permission name="internet"/>
+	<access origin="*"/>
+	<preference name="querySchemes" value="sinaweibohd,sinaweibo,weibosdk,weibosdk2.5" />
+	<preference name="querySchemes" value="mqq,mqqapi"/>
+
+	<!-- 微信支付 -->
+	<feature name="wxPayPlus">
+		<param name="urlScheme" value="wxd477c31e828947b3"/>
+		<param name="apiKey" value="wxd477c31e828947b3"/>
+		<param name="universalLink" value="https://www.kaituocn.com"/>
+	</feature>
+
+	<feature name="wxPlus">
+		<param name="urlScheme" value="wxd477c31e828947b3"/>
+		<param name="apiKey" value="wxd477c31e828947b3"/>
+		<param name="universalLink" value="https://www.kaituocn.com"/>
+	</feature>
+	<feature name="weiboPlus">
+		<param name="urlScheme" value="wb4264441379" />
+		<param name="apiKey" value="4264441379" />
+		<param name="registUrl" value="https://www.kaituocn.com" />
+	</feature>
+	<feature name="QQPlus">
+		<param name="urlScheme" value="tencent1111068210" />
+		<param name="apiKey" value="1111068210" />
+	</feature>
+
+	<!-- 支付宝支付 -->
+	<feature name="aliPayPlus">
+		<param name="urlScheme" value="AliPayPlusA6155937255385" />
+	</feature>
+	<!-- 银联支付 -->
+	<feature name="unionPay">
+		<param name="urlScheme" value="unionPayA6155937255385"/>
+	</feature>
+</widget>
